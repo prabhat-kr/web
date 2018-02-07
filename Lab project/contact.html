@@ -1,0 +1,106 @@
+<html>
+<head>
+<title> Contact Details</title> 
+<style>
+ul {
+    list-style-type: none;
+  position:relative;
+    width:60%;
+    padding: 5px;
+    overflow: hidden;
+    background-color: #333;
+border: 1px solid #dedede;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055)
+}
+
+
+li {
+    float:left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #44bbcc;
+}
+.active {
+    background-color: #4CAF50;
+}
+</style>
+</head>
+
+
+
+
+<body background="cont.jpg">
+
+<img src='basiclogo.png' style='position:absolute;top:0; right:0;' width='100px' height='100px' alt='NIT DURGAPUR' /> 
+
+<ul>
+ <li><a  href="signup.html">Basic Details</a></li>
+ <li><a href="education.html">Educational Details</a></li>
+
+<li><a class="active" href="contact.html">Contact Details</a></li>
+<li><a href="www.nitdgp.ac.in" target="_blank">About Us</li></a>
+</ul>
+
+<form action=""/action_page.php" method="post" target="_blank" name="StudentRegistration" onsubmit="return(validate());">
+
+<table cellpadding="6" width="40%" bgcolor="#7FB3D5  " align="center"
+cellspacing="10">
+
+<tr>
+<td colspan=2>
+<center><font size=5><b>Your Contact Details</b></font></center>
+</td>
+</tr>
+
+<tr>
+<td><b>Guardian Name</b></td>
+<td><input type="text" name="textnames" id="textname" size="40"></td>
+</tr>
+<tr>
+<td><b>Contact no:</b></td>
+<td><input type="number" name="mobilenumber" id="mobno" size="40"></td>
+</tr>
+<td><b>Alternate Contact no:</b></td>
+<td><input type="number" name="mobilenumber" id="mobno" size="40"></td>
+</tr>
+<td><b>Guardian's Email-Id</b></td>
+<td><input type="email" name="emailid" id="emailid" size="40"></td>
+</tr>
+<tr>
+<td><b>Postal Address</b></td>
+<td><input type="text" name="paddress" id="paddress" size="40"></td>
+</tr>
+<td><b>Home State</b></td>
+<td><input type="text" name="state" id="state" size="40"></td>
+</tr>
+<td><b>Pin Code</b></td>
+<td><input type="number" name="pc" id="pc" size="40"></td>
+</tr>
+<td><b>Current Address</b></td>
+<td><input type="text" name="paddress" id="paddress" size="40"></td>
+</tr>
+<td><b>Current State</b></td>
+<td><input type="text" name="cstate" id="cstate" size="40"></td>
+</tr>
+<tr>
+<td><input type="reset"></td>
+<td colspan="4"><input type="submit" value="Final Submission"</td>
+</tr>
+</table>
+
+
+
+
+
+</body>
+</html>

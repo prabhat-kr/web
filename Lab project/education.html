@@ -1,0 +1,151 @@
+<html>
+<head>
+<title>Education details</title>
+<style>
+
+ul {
+    list-style-type: none;
+  position:relative;
+    width:60%;
+    padding: 5px;
+    overflow: hidden;
+    background-color: #333;
+border: 1px solid #dedede;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055)
+}
+
+
+li {
+    float:left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #44bbcc;
+}
+.active {
+    background-color: #4CAF50;
+}
+body {
+  
+    background-position: center top;
+    background-size: 100% auto;
+}
+
+
+
+
+
+</style>
+</head>
+<body background="educat.jpg" >
+<img src='basiclogo.png' style='position:absolute;top:0; right:0;' width='100px' height='100px' alt='NIT DURGAPUR' /> 
+<ul>
+ <li><a href="signup.html">Basic Details</a></li>
+ <li><a class="active"href="education.html">Educational Details</a></li>
+
+<li><a href="contact.html">Contact Details</a></li>
+<li><a href="https://www.nitdgp.ac.in" target="_blank">About Us</a></li>
+</ul>
+<form action="contact.html" method="post" name="StudentRegistration" onsubmit="return(validate());">
+
+<table cellpadding="13" width="95%" bgcolor="#B2BABB" align="center" cellspacing="16">
+<h1 align="center" style="color:000"><b>EDUCATIONAL DETAILS</b></h1><br><br>
+
+<th>S.No</th>
+<th>Course</th>
+<th>Board/University</th>
+<th>School/College</th>
+<th>Year of Passing</th>
+<th>Percentage</th>
+<tr>
+<td align="center" valign="middle"><b>1.</b></td>
+<td align="center" valign="middle"><b>SENIOIR SECONDARY</b></td>
+<td><input type=text name=textnames id="textname" size="40"></td>
+<td><input type=text name=textnames id="textname" size="40"></td>
+<td><input type="date" name=textnames id="textname" size="8"></td>
+<td><input type="text"name=textnames id="textname" size="4"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"><b>2.</b></td>
+<td align="center" valign="middle"><b>HIGHER SECONDARY</b></td>
+<td><input type="text" name="textnames" id="textname" size="40"></td>
+<td><input type=text name=textnames id="textname" size="40"></td>
+<td><input type="date" name=textnames id="textname" size="8"></td>
+<td><input type=text name=textnames id="textname" size="4"></td>
+
+</tr>
+<tr>
+<td align="center" valign="middle"><b>3.</b></td>
+<td align="center" valign="middle"><select name="COURSE"</td>
+<option value="-1" selected><b>SELECT</b></option>
+<option value="B.Tech">B.TECH</option>
+<option value="MCA">MCA</option>
+<option value="MBA">MBA</option>
+<option value="BCA">M.TECH</option>
+<option value="P.HD">P.HD</option>
+</select></td>
+<td><input type=text name=textnames id="textname" size="40"></td>
+<td><input type=text name=textnames id="textname" size="40"></td>
+<td><input type="date" name=textnames id="textname" size="8"></td>
+<td><input type=text name=textnames id="textname" size="4"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"><b>4.</b></td>
+<td align="center" valign="middle"><select name="COURSE"</td>
+<option value="-1" selected><b>SELECT</b></option>
+<option value="B.Tech">B.TECH</option>
+<option value="MCA">MCA</option>
+<option value="MBA">MBA</option>
+<option value="BCA">M.TECH</option>
+<option value="P.HD">P.HD</option>
+</select></td>
+<td><input type=text name=textnames id="textname" size="40"></td>
+<td><input type=text name=textnames id="textname" size="40"></td>
+<td><input type="date" name=textnames id="textname" size="8"></td>
+<td><input type=text name=textnames id="textname" size="4"></td>
+</tr>
+<tr>
+<td align="center" valign="middle"><b>5.</b></td>
+<td align="center" valign="middle"><select name="COURSE></td>
+<option value="-1" selected><b>SELECT</b></option>
+<option value="B.Tech">B.TECH</option>
+<option value="MCA">MCA</option>
+<option value="MBA">MBA</option>
+<option value="BCA">M.TECH</option>
+<option value="P.HD">P.HD</option>
+</select></td>
+<td><input type=text name=textnames id="textname" size="40"></td>
+<td><input type=text name=textnames id="textname" size="40"></td>
+<td><input type="date" name=textnames id="textname" size="8"></td>
+<td><input type="text" name=textnames id="textname" size="4"></td>
+</tr>
+<tr>
+<td><input type="reset"></td>
+<td colspan="4"><input type="submit" value="Save & Proceed"</td>
+</tr>
+</table>
+
+
+
+</form>
+
+
+<footer>
+  <small>&copy; NIT DGP</small>
+</footer>
+
+
+
+
+</table>
+</body>
+</html>
